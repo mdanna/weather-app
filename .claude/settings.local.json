@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(bun run lint:*)",
+      "Bash(bun run build:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "WebSearch",
+      "WebFetch(domain:www.better-auth.com)",
+      "WebFetch(domain:bun.com)",
+      "WebFetch(domain:tiptap.dev)",
+      "Bash(bun add:*)",
+      "mcp__plugin_playwright_playwright__browser_navigate",
+      "mcp__plugin_playwright_playwright__browser_click",
+      "mcp__plugin_playwright_playwright__browser_fill_form",
+      "mcp__plugin_playwright_playwright__browser_snapshot",
+      "mcp__plugin_playwright_playwright__browser_network_requests",
+      "mcp__plugin_playwright_playwright__browser_wait_for",
+      "mcp__plugin_playwright_playwright__browser_type",
+      "mcp__plugin_playwright_playwright__browser_press_key",
+      "mcp__plugin_playwright_playwright__browser_tabs",
+      "mcp__plugin_playwright_playwright__browser_close",
+      "Bash(bun run:*)",
+      "Bash(npm run:*)",
+      "Bash(curl -s -w \"\\\\nHTTP:%{http_code}\" \"http://localhost:3000/foundry/appconfig\" -H \"X-Voltmx-App-Key: 935bcbea7fae08277889d176dfca53f6\" -H \"X-Voltmx-App-Secret: 935bcbea7fae08277889d176dfca53f6\" -H \"X-HTTP-Method-Override: GET\" -X POST)",
+      "Bash(curl -s -w \"\\\\nHTTP:%{http_code}\" \"http://localhost:3000/foundry/appconfig\" -H \"X-Voltmx-App-Key: 935bcbea7fae08277889d176dfca53f6\" -H \"X-Voltmx-App-Secret: 935bcbea7fae08277889d176dfca53f6\" -X GET)",
+      "Bash(curl -s -o /dev/null -w \"key=935/secret=94f3: %{http_code}\\\\n\" \"http://localhost:3000/foundry/appconfig\" -H \"X-Voltmx-App-Key: 935bcbea7fae08277889d176dfca53f6\" -H \"X-Voltmx-App-Secret: 94f3229d7ed67db54f8cfc5ebd6422c9\" -X POST -H \"X-HTTP-Method-Override: GET\")",
+      "Bash(curl -s -o /dev/null -w \"key=94f3/secret=935: %{http_code}\\\\n\" \"http://localhost:3000/foundry/appconfig\" -H \"X-Voltmx-App-Key: 94f3229d7ed67db54f8cfc5ebd6422c9\" -H \"X-Voltmx-App-Secret: 935bcbea7fae08277889d176dfca53f6\" -X POST -H \"X-HTTP-Method-Override: GET\")"
+    ]
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true
+  }
+}
